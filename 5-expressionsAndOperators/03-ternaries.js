@@ -1,4 +1,7 @@
 /* Ternary */
+
+//default statement is required
+
 /*
 let number = 6;
 

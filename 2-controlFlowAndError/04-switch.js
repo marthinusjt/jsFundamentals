@@ -18,7 +18,7 @@ switch (friend) {
     default:
         console.log(`I'm sorry, ${friend}, but do I know you?`);
 }
-//string intreprelation uses `` keys. Key left of '1'
+//string interpolation uses `` keys. Key left of '1'
 
 let dessert = 'Pie';
 

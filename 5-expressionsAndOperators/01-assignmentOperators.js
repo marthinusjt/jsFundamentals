@@ -7,10 +7,13 @@ let x = 5;
 let x = x + 1;
 //or
 x += 1;
+//or
+x++;
 
 //Subtraction Assignment Operator
 x = x - 1;
 x -= 1;
+x --;
 
 //Multiplication Assignment Operator
 x = x * 1;
@@ -28,4 +31,4 @@ x %= 1;
 
 //Exponential Assignment Operator
 x = x ** 1;
-x ** 1;
+x **= 1;
