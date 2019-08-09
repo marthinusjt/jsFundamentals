@@ -41,11 +41,20 @@ Have it RETURN the value
 Capture that returned value in a VARIABLE
 Print that variable
 */
-function tipCalc(cost, tip) {
+function tipCalc(cost, tipPercent) {
+    let tip = tipPercent * 0.01;
     let totalTip = cost * tip;
     let totalFinal = totalTip + cost;
-    console.log('$' + totalFinal);
+    console.log(`You are about to tip $${totalTip}, with your total bill being $${totalFinal}`);
     return totalFinal;
 }
 
-tipCalc(100, .2);
+tipCalc(300, 10);
+
+let tipCalcs = (price) => {
+   let tipPerc = 0.15;
+   let tip = price*tipPerc;
+   return tip;
+}
+let tipDinner = tipCalcs(80.86);
+console.log(`$${tipDinner} tip`);

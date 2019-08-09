@@ -23,7 +23,7 @@ switch (friend) {
 let dessert = 'Pie';
 
 switch(dessert){
-    case ('pie' || 'Pie'):
+    case ('pie'):
         console.log('Pie, pie, me oh my!');
         break;
     case 'cake':
