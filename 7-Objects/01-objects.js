@@ -36,8 +36,8 @@ let netflix = {
 
 // console.log("All data: ", netflix);
 // console.log("Just season info: ", netflix.season2.seasonInfo);
-// console.log(netflix.season2.seasonInfo.episodeInfo[1].episodeName);
-// console.log(netflix.season2.seasonInfo.episodeInfo[1].episode, netflix.season2.seasonInfo.episodeInfo[1].episodeName);
+// console.log(netflix.season2.seasonInfo.episodeInfo[0].episodeName);
+console.log(netflix.season2.seasonInfo.episodeInfo[1].episode, netflix.season2.seasonInfo.episodeInfo[1].episodeName);
 
 // JSON
 // data comes back as a long string. Why do we JSONify?

@@ -7,29 +7,32 @@ Used for iterating over ENUMERABLE values in an object. This is great for debugg
 // let student = {name: "Peter", awesome: true, degree: "JavaScript", week: 1};
 
 // for (let item in student){
+//     // console.log(student);
 //     // console.log(item);
 //     console.log(student[item]);
 // }
 
-// let catArray = ['tabby', 'british shorthair', 'burmese', 'maine coon', 'rag doll'];
+let catArray = ['tabby', 'british shorthair', 'burmese', 'maine coon', 'rag doll'];
 
-// for(let cat in catArray){
-//     // console.log(cat);
-//     console.log(catArray[cat]);
-// }
+for(let cat in catArray){
+    // console.log(cat);  //Index of the cats ex: 0, 1, 2, 3, 4
+    console.log(catArray[cat]); //String values of the indexes. ex: tabby, etc...
+}
+
+// console.log(catArray[1]);
 
 //Challenge
 //Write a for in loop that capitalizes the first letter of your name
 
-let name = "marthinus";
-let capName;
+// let name = "marthinus";
+// let capName;
 
-for(let x in name){
-    if(x == 0){
-        capName = name[x].toUpperCase();
-    } else {
-        capName += name[x].toLowerCase();
-    }
-}
+// for(let x in name){
+//     if(x == 0){
+//         capName = name[x].toUpperCase();
+//     } else {
+//         capName += name[x].toLowerCase();
+//     }
+// }
 
-console.log(capName);
+// console.log(capName);

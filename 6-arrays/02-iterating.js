@@ -19,4 +19,6 @@ let movies = ['Spider-Man: Homecoming', 'Terminator', 'Footloose', 'Batman'];
 movies.push('Avengers');
 movies.splice(2, 1, 'Spider-Man: Far From Home');
 
-movies.forEach((movies, number, array) => {console.log(number, array)});
+movies.forEach((movies, number, array) => {console.log(movies)});
+// movies.forEach((movies, number, array) => {console.log(movies, number)});
+// movies.forEach((movies, number, array) => {console.log(movies, number, array)});

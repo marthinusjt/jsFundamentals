@@ -31,7 +31,7 @@ let spaceJam = {
     }
   };
 
-//   console.log(Object.keys(spaceJam.toonSquad));
+// console.log(Object.keys(spaceJam.toonSquad));
 // console.log(Object.keys(spaceJam.toonSquad.duck));
 
 // console.log(Object.values(spaceJam.toonSquad.duck));
